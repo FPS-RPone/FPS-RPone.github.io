@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>test1</title>
+</head>
+<body>
+    <h2>Отошлите Анатолию пару М60 Паттонов!</h2>
+    <p>Паттонов отослано: <a id="clicks">0</a></p>
+    <button type="button" onClick="onClick()">Отослать</button>
+</body>
+<script>
+    var clicks = 0;
+function onClick() {
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};
+</script>
+</html>
